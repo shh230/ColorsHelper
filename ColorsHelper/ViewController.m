@@ -7,8 +7,13 @@
 //
 
 #import "ViewController.h"
+#import "UIColor+ColorWithString.h"
 
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet UIView *colorView;
+
+@property (weak, nonatomic) IBOutlet UITextField *textField;
 
 @end
 
@@ -17,6 +22,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+- (IBAction)Click:(UIButton *)sender {
+    
+    if (self.textField.text.length > 0 && [self.textField.text containsString:@"#"]) {
+        self.colorView.backgroundColor = [UIColor colorWithHexString:self.textField.text];
+    }
 }
 
 

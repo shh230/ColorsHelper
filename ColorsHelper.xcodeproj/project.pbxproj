@@ -15,6 +15,7 @@
 		135A55EC20CE5248005E861F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 135A55EB20CE5248005E861F /* main.m */; };
 		135A55F620CE5248005E861F /* ColorsHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 135A55F520CE5248005E861F /* ColorsHelperTests.m */; };
 		135A560120CE5249005E861F /* ColorsHelperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 135A560020CE5249005E861F /* ColorsHelperUITests.m */; };
+		135A561020CE52E5005E861F /* UIColor+ColorWithString.m in Sources */ = {isa = PBXBuildFile; fileRef = 135A560F20CE52E5005E861F /* UIColor+ColorWithString.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		135A55FC20CE5249005E861F /* ColorsHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorsHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		135A560020CE5249005E861F /* ColorsHelperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorsHelperUITests.m; sourceTree = "<group>"; };
 		135A560220CE5249005E861F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		135A560E20CE52E5005E861F /* UIColor+ColorWithString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorWithString.h"; sourceTree = "<group>"; };
+		135A560F20CE52E5005E861F /* UIColor+ColorWithString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorWithString.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				135A55DD20CE5248005E861F /* AppDelegate.m */,
 				135A55DF20CE5248005E861F /* ViewController.h */,
 				135A55E020CE5248005E861F /* ViewController.m */,
+				135A560E20CE52E5005E861F /* UIColor+ColorWithString.h */,
+				135A560F20CE52E5005E861F /* UIColor+ColorWithString.m */,
 				135A55E220CE5248005E861F /* Main.storyboard */,
 				135A55E520CE5248005E861F /* Assets.xcassets */,
 				135A55E720CE5248005E861F /* LaunchScreen.storyboard */,
@@ -267,6 +272,7 @@
 			files = (
 				135A55E120CE5248005E861F /* ViewController.m in Sources */,
 				135A55EC20CE5248005E861F /* main.m in Sources */,
+				135A561020CE52E5005E861F /* UIColor+ColorWithString.m in Sources */,
 				135A55DE20CE5248005E861F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
