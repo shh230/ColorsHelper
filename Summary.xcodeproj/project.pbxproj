@@ -15,6 +15,9 @@
 		130D7E9E210B0089006B8D8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 130D7E9D210B0089006B8D8C /* main.m */; };
 		130D7EA8210B0089006B8D8C /* SummaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 130D7EA7210B0089006B8D8C /* SummaryTests.m */; };
 		130D7EB3210B0089006B8D8C /* SummaryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 130D7EB2210B0089006B8D8C /* SummaryUITests.m */; };
+		130D7EC3210B0265006B8D8C /* UIColor+ColorWithString.m in Sources */ = {isa = PBXBuildFile; fileRef = 130D7EC2210B0264006B8D8C /* UIColor+ColorWithString.m */; };
+		130D7EC7210B0463006B8D8C /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 130D7EC6210B0463006B8D8C /* UIImage+Resize.m */; };
+		130D7ECA210B0D4E006B8D8C /* IMG_1085.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 130D7EC9210B0D4E006B8D8C /* IMG_1085.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		130D7EAE210B0089006B8D8C /* SummaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SummaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		130D7EB2210B0089006B8D8C /* SummaryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SummaryUITests.m; sourceTree = "<group>"; };
 		130D7EB4210B0089006B8D8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		130D7EC1210B0264006B8D8C /* UIColor+ColorWithString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorWithString.h"; sourceTree = "<group>"; };
+		130D7EC2210B0264006B8D8C /* UIColor+ColorWithString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorWithString.m"; sourceTree = "<group>"; };
+		130D7EC5210B0463006B8D8C /* UIImage+Resize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		130D7EC6210B0463006B8D8C /* UIImage+Resize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		130D7EC9210B0D4E006B8D8C /* IMG_1085.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1085.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,9 @@
 				130D7E8F210B0089006B8D8C /* AppDelegate.m */,
 				130D7E91210B0089006B8D8C /* ViewController.h */,
 				130D7E92210B0089006B8D8C /* ViewController.m */,
+				130D7EC4210B02CF006B8D8C /* ImageHandler */,
+				130D7EC0210B0264006B8D8C /* ColorHandler */,
+				130D7EC8210B0D4E006B8D8C /* Resource */,
 				130D7E94210B0089006B8D8C /* Main.storyboard */,
 				130D7E97210B0089006B8D8C /* Assets.xcassets */,
 				130D7E99210B0089006B8D8C /* LaunchScreen.storyboard */,
@@ -130,6 +141,32 @@
 				130D7EB4210B0089006B8D8C /* Info.plist */,
 			);
 			path = SummaryUITests;
+			sourceTree = "<group>";
+		};
+		130D7EC0210B0264006B8D8C /* ColorHandler */ = {
+			isa = PBXGroup;
+			children = (
+				130D7EC1210B0264006B8D8C /* UIColor+ColorWithString.h */,
+				130D7EC2210B0264006B8D8C /* UIColor+ColorWithString.m */,
+			);
+			path = ColorHandler;
+			sourceTree = "<group>";
+		};
+		130D7EC4210B02CF006B8D8C /* ImageHandler */ = {
+			isa = PBXGroup;
+			children = (
+				130D7EC5210B0463006B8D8C /* UIImage+Resize.h */,
+				130D7EC6210B0463006B8D8C /* UIImage+Resize.m */,
+			);
+			path = ImageHandler;
+			sourceTree = "<group>";
+		};
+		130D7EC8210B0D4E006B8D8C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				130D7EC9210B0D4E006B8D8C /* IMG_1085.JPG */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				130D7E9B210B0089006B8D8C /* LaunchScreen.storyboard in Resources */,
+				130D7ECA210B0D4E006B8D8C /* IMG_1085.JPG in Resources */,
 				130D7E98210B0089006B8D8C /* Assets.xcassets in Resources */,
 				130D7E96210B0089006B8D8C /* Main.storyboard in Resources */,
 			);
@@ -267,7 +305,9 @@
 			files = (
 				130D7E93210B0089006B8D8C /* ViewController.m in Sources */,
 				130D7E9E210B0089006B8D8C /* main.m in Sources */,
+				130D7EC3210B0265006B8D8C /* UIColor+ColorWithString.m in Sources */,
 				130D7E90210B0089006B8D8C /* AppDelegate.m in Sources */,
+				130D7EC7210B0463006B8D8C /* UIImage+Resize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
