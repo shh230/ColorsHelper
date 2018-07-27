@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/si/Desktop/Summary/Summary/ImageHandler/UIImage+Resize.m \
-  /Users/si/Desktop/Summary/Summary/ImageHandler/UIImage+Resize.h
+  /Users/si/Desktop/Si/Summary/Summary/ImageHandler/UIImage+Resize.m \
+  /Users/si/Desktop/Si/Summary/Summary/ImageHandler/UIImage+Resize.h

@@ -1,2 +1,2 @@
-dependencies: /Users/si/Desktop/Summary/Summary/AppDelegate.m \
-  /Users/si/Desktop/Summary/Summary/AppDelegate.h
+dependencies: /Users/si/Desktop/Si/Summary/Summary/AppDelegate.m \
+  /Users/si/Desktop/Si/Summary/Summary/AppDelegate.h

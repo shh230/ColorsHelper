@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/si/Desktop/Summary/Summary/ColorHandler/UIColor+ColorWithString.m \
-  /Users/si/Desktop/Summary/Summary/ColorHandler/UIColor+ColorWithString.h
+  /Users/si/Desktop/Si/Summary/Summary/ColorHandler/UIColor+ColorWithString.m \
+  /Users/si/Desktop/Si/Summary/Summary/ColorHandler/UIColor+ColorWithString.h
