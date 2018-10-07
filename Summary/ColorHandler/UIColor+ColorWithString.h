@@ -10,7 +10,6 @@
 
 @interface UIColor (ColorWithString)
 
-
 /**
  通过输入十六进制字符串，生成UIColor对象
 
@@ -18,5 +17,15 @@
  @return 生成的UIColor对象
  */
 + (UIColor *)colorWithHexString:(NSString *)color;
+
+
+/**
+ 通过输入十六进制字符串，生成UIColor对象
+
+ @param color 输入的十六进制字符串
+ @param alpha 透明程度
+ @return 生成的UIColor对象
+ */
++ (UIColor *)colorWithHexString:(NSString *)color alpha:(CGFloat)alpha;
 
 @end

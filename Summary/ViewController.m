@@ -11,7 +11,8 @@
 #import "UIImage+Resize.h"
 
 @interface ViewController ()
-@property (weak, nonatomic) IBOutlet UITextField *textField;
+@property (weak, nonatomic) IBOutlet UITextField *colorTextField;
+@property (weak, nonatomic) IBOutlet UITextField *alphaTextField;
 
 @end
 
@@ -28,8 +29,11 @@
 }
 
 - (IBAction)click:(UIButton *)sender {
-    if (self.textField.text.length > 0 && [self.textField.text containsString:@"#"]) {
-        sender.backgroundColor = [UIColor colorWithHexString:self.textField.text];
+    if (self.colorTextField.text.length > 0 && [self.colorTextField.text containsString:@"#"]) {
+        sender.backgroundColor = [UIColor colorWithHexString:self.colorTextField.text];
+    }
+    if (self.colorTextField.text.length > 0 && [self.colorTextField.text containsString:@"#"] && self.alphaTextField.text.length > 0) {
+        sender.backgroundColor = [UIColor colorWithHexString:self.colorTextField.text alpha:[self.alphaTextField.text floatValue]];
     }
 }
 
